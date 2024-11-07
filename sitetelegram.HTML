@@ -1,0 +1,419 @@
+<html><head><base href=""><meta charset="utf-8"><title>Trading Radar FR - Canal Telegram</title><style>
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1a1f2c, #2d3748);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+.telegram-preview {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    color: #2d3748;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.preview-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.preview-images img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .preview-images {
+        grid-template-columns: 1fr;
+    }
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #0088cc;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 2rem;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #006699;
+}
+
+.vip-section {
+    background: rgba(255, 215, 0, 0.1);
+    border: 2px solid #ffd700;
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.vip-section h2 {
+    color: #ffd700;
+    margin-bottom: 1rem;
+}
+
+.vip-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.vinted-button {
+    display: inline-block;
+    background: #09B1BA;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+.vinted-button:hover {
+    background: #078e96;
+}
+
+.performance-chart {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.email-signup {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.email-input {
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 1rem;
+    width: 250px;
+}
+
+.rating-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 2rem;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.stars {
+    color: #ffd700;
+    font-size: 24px;
+    margin: 1rem 0;
+}
+
+.rating-stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+.average-rating {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffd700;
+}
+
+.rating-form {
+    margin: 2rem 0;
+}
+
+.star-input {
+    display: none;
+}
+
+.star-label {
+    cursor: pointer;
+    font-size: 30px;
+    color: #ccc;
+}
+
+.star-label:hover,
+.star-label:hover ~ .star-label,
+.star-input:checked ~ .star-label {
+    color: #ffd700;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+.live-banner {
+    background: linear-gradient(90deg, #ff6b6b, #ffd93d);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: relative;
+    animation: pulse 2s infinite;
+}
+
+</style></head><body>
+
+<div class="live-banner">
+    🔴 SIGNAL VIP EN DIRECT: Bitcoin en position d'achat - Consultez votre espace VIP pour plus de détails!
+</div>
+
+<div class="container">
+    <div class="header">
+        <img src="https://www.crypto-news-flash.com/wp-content/uploads/2024/09/bitcoin-btc-d.jpg" alt="Bitcoin Image from Crypto News Flash" width="150" height="150" style="border-radius: 50%;">
+        <h1>Trading Radar FR</h1>
+        <p>Votre source d'informations privilégiée pour le trading de crypto-monnaies</p>
+    </div>
+
+    <div class="telegram-preview">
+        <h2>🚀 Rejoignez notre canal Telegram!</h2>
+        <p>Trading Radar FR est votre compagnon indispensable pour le trading de crypto-monnaies, spécialement focalisé sur le Bitcoin (BTC).</p>
+        
+        <p>✨ Nos signaux incluent:</p>
+        <ul>
+            <li>Analyses techniques complètes avec indicateurs avancés</li>
+            <li>Points d'entrée et de sortie précis basés sur l'analyse des graphiques</li>
+            <li>Objectifs de prix détaillés avec niveaux de résistance et support</li>
+            <li>Stop loss optimisés pour une meilleure gestion des risques</li>
+            <li>Mises à jour en temps réel des mouvements de marché</li>
+            <li>Analyse des tendances à court et long terme</li>
+            <li>Alertes sur les événements majeurs du marché</li>
+            <li>Conseils de gestion de portefeuille</li>
+        </ul>
+
+        <p><strong>Note importante:</strong> Comme nos signaux sont gérés manuellement, il peut arriver que certains soient oubliés. N'hésitez pas à nous contacter en privé pour nous le rappeler et recevoir vos signaux.</p>
+    </div>
+
+    <div class="features">
+        <div class="feature-card">
+            <h3>📊 Signaux Bitcoin</h3>
+            <p>Analyses techniques détaillées et signaux de trading BTC en temps réel avec suivi personnalisé</p>
+        </div>
+        <div class="feature-card">
+            <h3>🎯 Autres Crypto-monnaies</h3>
+            <p>Intéressé par d'autres crypto-monnaies ? Contactez-nous en message privé pour des analyses personnalisées!</p>
+        </div>
+        <div class="feature-card">
+            <h3>📱 Communauté Active</h3>
+            <p>Rejoignez une communauté passionnée de traders francophones et partagez vos expériences</p>
+        </div>
+    </div>
+
+    <div class="vip-section">
+        <h2>👑 Mode VIP Disponible</h2>
+        <p>Accédez à des fonctionnalités exclusives avec notre mode VIP!</p>
+        <p>Avantages VIP:</p>
+        <ul>
+            <li>Signaux de trading premium avec taux de réussite élevé</li>
+            <li>Analyses approfondies détaillées des mouvements de marché</li>
+            <li>Alertes prioritaires sur les opportunités de trading</li>
+            <li>Support personnalisé 24/7</li>
+            <li>Accès aux analyses de marché exclusives et prévisions avancées</li>
+            <li>Stratégies de trading personnalisées</li>
+            <li>Webinaires exclusifs et sessions de formation</li>
+            <li>Accès prioritaire aux nouvelles fonctionnalités</li>
+        </ul>
+        <p>Pour débloquer l'accès VIP, effectuez un achat sur notre boutique Vinted:</p>
+        <a href="https://www.vinted.fr/member/38807884" class="vinted-button" target="_blank">
+            Visiter notre boutique Vinted
+        </a>
+    </div>
+
+    <div class="performance-chart">
+        <h2>📈 Performances des Signaux</h2>
+        <svg width="100%" height="300" viewBox="0 0 800 300">
+            <path d="M50,250 L150,200 L250,180 L350,120 L450,140 L550,80 L650,60 L750,40" 
+                  fill="none" 
+                  stroke="#0088cc" 
+                  stroke-width="3"/>
+            <circle cx="750" cy="40" r="6" fill="#0088cc"/>
+            <text x="700" y="20" fill="white">+75% de réussite</text>
+        </svg>
+    </div>
+
+    <div class="email-signup">
+        <h2>📧 Pour avoir le mode VIP Envoi un mail avec une preuve</h2>
+        <form id="emailForm" onsubmit="handleEmailSignup(event)">
+            <input type="email" class="email-input" placeholder="Votre email" required>
+            <button type="submit" class="cta-button">S'inscrire aux alertes</button>
+        </form>
+    </div>
+
+    <div style="text-align: center;">
+        <a href="https://t.me/TradingRadarfr" class="cta-button" target="_blank">
+            Rejoindre le Canal Telegram
+        </a>
+        <p style="margin-top: 1rem;">
+            Pour des signaux sur d'autres crypto-monnaies, n'hésitez pas à nous contacter en message privé!
+        </p>
+    </div>
+
+    <div style="text-align: center;">
+        <a href="https://t.me/share/url?url=https://t.me/TradingRadarfr&text=Rejoignez%20Trading%20Radar%20FR%20pour%20des%20signaux%20crypto%20premium!" 
+           class="share-button" 
+           target="_blank">
+           <svg width="20" height="20" viewBox="0 0 24 24" fill="white">
+               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-5l6 2.5-6 2.5z"/>
+           </svg>
+           Partager sur Telegram
+        </a>
+    </div>
+
+    <div class="rating-section">
+        <h2>⭐ Évaluations des Membres</h2>
+        <div class="rating-stats">
+            <div>
+                <div class="average-rating">-.-</div>
+                <div class="stars">☆☆☆☆☆</div> 
+                <div>Aucun avis pour le moment</div>
+            </div>
+        </div>
+        
+        <div class="rating-form">
+            <h3>Laissez votre avis</h3>
+            <form id="ratingForm" onsubmit="handleRating(event)">
+                <div class="stars">
+                    <input type="radio" id="star5" name="rating" value="5" class="star-input">
+                    <label for="star5" class="star-label">★</label>
+                    <input type="radio" id="star4" name="rating" value="4" class="star-input">
+                    <label for="star4" class="star-label">★</label>
+                    <input type="radio" id="star3" name="rating" value="3" class="star-input">
+                    <label for="star3" class="star-label">★</label>
+                    <input type="radio" id="star2" name="rating" value="2" class="star-input">
+                    <label for="star2" class="star-label">★</label>
+                    <input type="radio" id="star1" name="rating" value="1" class="star-input">
+                    <label for="star1" class="star-label">★</label>
+                </div>
+                <button type="submit" class="cta-button">Envoyer votre note</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+let ratings = {
+    count: 0,
+    total: 0,
+    average: 0
+};
+
+let hasRatedThisSession = false;
+
+document.addEventListener('DOMContentLoaded', function() {
+    localStorage.removeItem('ratingsData');
+    hasRatedThisSession = false;
+    updateRatingsDisplay();
+});
+
+function updateRatingsDisplay() {
+    const averageRatingElement = document.querySelector('.average-rating');
+    const ratingCountElement = document.querySelector('.rating-stats .stars + div');
+    const starsElement = document.querySelector('.rating-stats .stars');
+
+    if (ratings.count === 0) {
+        averageRatingElement.textContent = '-.-';
+        ratingCountElement.textContent = 'Aucun avis pour le moment';
+        starsElement.innerHTML = '☆☆☆☆☆';
+    } else {
+        const average = ratings.total / ratings.count;
+        averageRatingElement.textContent = average.toFixed(1);
+        ratingCountElement.textContent = `${ratings.count} avis`;
+        
+        const fullStars = Math.floor(average);
+        let starsHTML = '★'.repeat(fullStars) + '☆'.repeat(5 - fullStars);
+        starsElement.innerHTML = starsHTML;
+    }
+
+    const ratingForm = document.getElementById('ratingForm');
+    const submitButton = ratingForm.querySelector('button[type="submit"]');
+    if (hasRatedThisSession) {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Vous avez déjà noté (rechargez la page pour noter à nouveau)';
+    } else {
+        submitButton.disabled = false;
+        submitButton.textContent = 'Envoyer votre note';
+    }
+}
+
+function handleRating(event) {
+    event.preventDefault();
+    
+    if (hasRatedThisSession) {
+        alert('Vous avez déjà noté. Rechargez la page pour noter à nouveau.');
+        return;
+    }
+
+    const selectedRating = document.querySelector('input[name="rating"]:checked');
+    
+    if (!selectedRating) {
+        alert('Veuillez sélectionner une note avant de soumettre.');
+        return;
+    }
+    
+    const rating = parseInt(selectedRating.value);
+    ratings.count++;
+    ratings.total += rating;
+    
+    localStorage.setItem('ratingsData', JSON.stringify(ratings));
+    
+    hasRatedThisSession = true;
+    
+    alert('Merci d\'avoir noté notre service !');
+    updateRatingsDisplay();
+    
+    document.getElementById('ratingForm').reset();
+}
+</script>
+</body></html>
